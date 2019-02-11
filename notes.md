@@ -4,7 +4,7 @@ notes for matlab deep learning
 
 # deep learning using matlab
 
-## 神经网络
+## 单层神经网络
 
 1. 增量规则：
 
@@ -30,11 +30,11 @@ $$
 
 4. 示例:
 
-   > 随机梯度下降法
+   > [随机梯度下降法](./mySGD.m "matlab文件")
    >
-   > 批量算法
+   > [批量算法](./myBatch.m  "matlab文件")
    >
-   > 二者比较
+   > [二者比较](./SGD_BATCH.m "matlab文件")
 
 ## 多层神经网络
 
