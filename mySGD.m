@@ -1,5 +1,5 @@
 %单层神经网络，随机梯度下降
-%以下为测试代码
+%以下为训练代码
 clear all;
 N=4;   %dataset size
 X=[0 0 1;   %input
