@@ -10,7 +10,7 @@ W5=(2*rand(100,2000)-1)*sqrt(6)/sqrt(360+2000);
 Wo=(2*rand(10,100)-1)*sqrt(6)/sqrt(10+100);
 X=Images(:,:,1:8000);
 D=Labels(1:8000);
-for epoch=1:3
+for epoch=1:10
     disp(epoch);
     [W1,W5,Wo]=MnistConv(W1,W5,Wo,X,D);
 end
